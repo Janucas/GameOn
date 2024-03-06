@@ -1,0 +1,128 @@
+body {
+    background-color: #212d37;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Puedes cambiar la fuente según tus preferencias */
+    color: #ffffff; /* Color de texto blanco, puedes ajustarlo según tus necesidades */
+  }
+
+  /* .table-white th,
+.table-white td {
+    color: white;
+} */
+
+/* Agrega estas reglas al final de tu archivo CSS */
+
+.table-white {
+    color: white;
+    border: none; /* Elimina el borde de la tabla */
+}
+
+.table-white th,
+.table-white td {
+    color: white;
+    border: none; /* Elimina el borde de las celdas */
+    padding: 15px; /* Ajusta el valor según sea necesario para agregar más espacio entre las celdas */
+}
+
+.table-white,
+.table-white th,
+.table-white td {
+    background-color: #212D37; /* Color de fondo #212D37 para la tabla y las celdas */
+}
+
+.reservar-cell {
+    text-align: left; /* Alinea el contenido al centro */
+    vertical-align: middle;
+
+}
+
+.reservar-button {
+    background-color: #00DABF; /* Color verde del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Elimina el borde del botón */
+    padding: 10px 15px; /* Ajusta el relleno según sea necesario */
+    border-radius: 10px; /* Bordes redondos */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s ease; /* Efecto de transición en el cambio de color */
+    margin-top: 0; /* Puedes ajustar este valor según sea necesario */
+
+}
+
+.reservar-button:hover {
+    background-color: #10a190; /* Color verde oscuro al pasar sobre el botón */
+}
+.reservada-button:hover {
+    background-color: #ae2b14; /* Color verde oscuro al pasar sobre el botón */
+}
+
+.reservada {
+    background-color: #cf3317; /* Código de color naranja rojizo */
+    color: #fff; /* Texto en color blanco */
+}
+.reservada .reservar-button {
+    cursor: not-allowed; /* Cambia el cursor a "no permitido" */
+}
+
+.titul{
+    align-items: center;
+}
+
+/* admin-style.css */
+
+/* Estilos específicos para la interfaz de administrador */
+.admin-interface {
+    background-color: #f0f0f0; /* Cambia el color de fondo a gris claro */
+}
+
+/* Estilizar la tabla para la interfaz de administrador */
+.admin-interface table {
+    border: 2px solid #333; /* Borde más grueso */
+}
+
+.admin-interface th, .admin-interface td {
+    padding: 15px; /* Mayor espacio en las celdas */
+    text-align: center; /* Centra el texto en las celdas */
+}
+
+.admin-interface .reservar-button {
+    background-color: #4CAF50; /* Cambia el color del botón reservar */
+    color: white; /* Texto blanco en el botón */
+}
+
+/* Otros estilos adicionales que necesites */
+
+
+.reservar-button-adm{
+    background-color: lightcoral;
+    border-radius: 10px; /* Bordes redondos */
+    border: none; /* Elimina el borde del botón */
+    padding: 10px 15px; /* Ajusta el relleno según sea necesario */
+    border-radius: 10px; /* Bordes redondos */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s ease; /* Efecto de transición en el cambio de color */
+    margin-top: 0; /* Puedes ajustar este valor según sea necesario */
+
+}
+.edit-button-adm{
+    background-color: rgb(230, 230, 95);
+    border-radius: 10px; /* Bordes redondos */
+    border: none; /* Elimina el borde del botón */
+    padding: 10px 15px; /* Ajusta el relleno según sea necesario */
+    border-radius: 10px; /* Bordes redondos */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s ease; /* Efecto de transición en el cambio de color */
+    margin-top: 0; /* Puedes ajustar este valor según sea necesario */
+}
+
+.cancel-button-adm{
+    background-color: rgb(231, 69, 33);
+    border-radius: 10px; /* Bordes redondos */
+    border: none; /* Elimina el borde del botón */
+    padding: 10px 15px; /* Ajusta el relleno según sea necesario */
+    border-radius: 10px; /* Bordes redondos */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s ease; /* Efecto de transición en el cambio de color */
+    margin-top: 0; /* Puedes ajustar este valor según sea necesario */
+    color: white;
+}

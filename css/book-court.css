@@ -1,0 +1,10 @@
+
+
+.caja {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    justify-content: center;
+
+}
